@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
 
-.menu{
-    padding: 0 250px;
+$padding-horizontal: 250px;
+
+.menu {
+    
+    padding:20px $padding-horizontal;
+    background-color:rgba(79, 198, 219, 0.70);
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+
+.header {
+    align-items:flex-start;
+    background-image: url('/assets/apresentacao/tangua.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    height: 800px;
+    
+    &__text{
+    
+    color:white;
+    font-size: 72px;
+    font-weight: bold;
+    min-width: 400px;
+    width: 30%;
+    padding:20px $padding-horizontal;
+    }
+
 }
