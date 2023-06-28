@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "normalize.css";
 import './index.css';
+import Apresentacao from "./Pages/Apresentacao";
 
 
 const root = ReactDOM.createRoot(
@@ -8,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    4Rent
+    <Apresentacao/>
   </React.StrictMode>
 );
 
