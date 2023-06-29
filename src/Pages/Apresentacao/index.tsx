@@ -4,8 +4,6 @@ import { ReactComponent as Logo} from '../../assets/4rent.svg'
 export default function Apresentacao() {
   return(
     <main>
-feature/11.3
-      
       <header className={styles.header}>
       <nav className={styles.menu}>
         <Logo /> 
