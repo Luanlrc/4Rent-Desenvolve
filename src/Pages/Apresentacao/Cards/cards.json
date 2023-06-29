@@ -1,0 +1,51 @@
+[
+    {
+      "title": "São Bento",
+      "description": "Chalé super aconchegante!",
+      "photo": "/assets/card/image 2.png",
+      "acomodacao": 4,
+      "price": 440.00,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Chalé"
+      }
+    },
+    {
+        "title": "Mandirituba",
+        "description": "Pousada  no meio da natureza!",
+        "photo": "/assets/card/image 3.png",
+        "acomodacao": 4,
+        "price": 230.00,
+        "id": 1,
+        "category": {
+          "id": 2,
+          "label": "Pousada"
+      }
+    },
+    {
+        "title": "Ponta Grossa",
+      "description": "Hotel de conforto e luxo!",
+      "photo": "/assets/card/image 4.png",
+      "acomodacao": 4,
+      "price": 830.00,
+      "id": 1,
+      "category": {
+        "id": 3,
+        "label": "Hotel"
+      }
+    },
+    {
+        "title": "Guaratuba",
+        "description": "Camping para os aventureiros!",
+        "photo": "/assets/card/image 5.png",
+        "acomodacao": 4,
+        "price": 200.00,
+        "id": 1,
+        "category": {
+          "id": 4,
+          "label": "Camping"
+      }
+    }
+    
+  ]

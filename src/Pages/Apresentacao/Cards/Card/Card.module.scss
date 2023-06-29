@@ -1,0 +1,72 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.item{
+   width: 360px;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-around;
+
+   padding: 10px;
+  
+
+
+    &__imagem {
+        margin-left: 30px;
+    
+      @media (max-width: $desktop_xsm) {
+        width: 100%;
+      }
+      img {
+        width: 50%;
+      }
+    }
+    &__descricao {
+       
+        background-color: rgba(79, 198, 219, 0.70);
+        width: 30%;
+    
+        border-radius: 12px;
+
+        @media (max-width: $desktop_xsm) {
+          flex-direction: row;
+          margin-top: 20px;
+          padding: 0;
+        }
+      }
+      &__titulo {
+        margin-left: 5px;
+        h2 {
+          color: rgb(255, 255, 255);
+          font-size: 0.8rem;
+          font-weight: bold;
+          
+          
+        }
+        p {
+          color: rgb(255, 255, 255);
+          font-size: .6rem;
+          font-weight: bold;
+          padding-right: 5px;
+          
+          
+        }
+      }
+      &__tags {
+        margin-left: 5px;
+        font-size: .5rem;
+        color: rgb(255, 255, 255);
+        padding: 0 0 10px 0;
+        
+        @media (max-width: $desktop_xsm) {
+          justify-content: flex-end;
+        }
+        @media (max-width: $mobile) {
+          justify-content: flex-start;
+        }
+       
+      }
+      
+    }  
