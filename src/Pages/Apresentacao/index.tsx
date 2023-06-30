@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from '../../assets/Group.svg'
 import { ReactComponent as Lupa } from '../../assets/Vector.svg';
 import { ReactComponent as Man } from '../../assets/silhueta.svg';
 import Cards from './Cards';
+import {motion} from 'framer-motion';
 
 
 export default function Apresentacao() {
@@ -21,7 +22,7 @@ export default function Apresentacao() {
                 <h4 className={styles.menu__opcoes} >Check-in</h4>
                 <h4 className={styles.menu__opcoes} >Check-out</h4>
                 <h4 className={styles.menu__opcoes} >Hospedes</h4>
-                <Lupa className={styles.lupa}/>
+                <Lupa className={styles.lupa} />
               </div>
 
               <div className={styles.menu__opcoes__link}>
@@ -35,19 +36,21 @@ export default function Apresentacao() {
             </ul>
 
           </nav>
-          <Man className={styles.man}  />
+          <Man className={styles.man} />
         </nav>
+
         <div className={styles.header__Text__Card}>
           <div className={styles.header__text} >
-            Experiência incrível em Curitiba
+            Experiência incrível no Paraná!
           </div>
-          <div className={styles.card} >
+          <motion.div animate={{x:-200,y:0}}className={styles.card} >
             <h2 className={styles.card__text}> As melhores acomodações da região</h2>
-            <Cards />
-          </div>
+           <Cards />
+
+          </motion.div>
         </div>
       </header>
-      
+
     </main>
 
 
