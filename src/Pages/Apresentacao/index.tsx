@@ -3,7 +3,6 @@ import { ReactComponent as Logo } from '../../assets/Group.svg'
 import { ReactComponent as Lupa } from '../../assets/Vector.svg';
 import { ReactComponent as Man } from '../../assets/silhueta.svg';
 import Cards from './Cards';
-import { Footer } from './Footer/footer';
 
 
 export default function Apresentacao() {
@@ -11,7 +10,9 @@ export default function Apresentacao() {
     <main>
       <header className={styles.header}>
         <nav className={styles.menu}>
-          <Logo />
+
+          <Logo className={styles.header__logo} />
+
           <h2 className={styles.menu__text}>  4Rent</h2>
           <nav className={styles.menu__informacoes}>
             <ul >
@@ -20,7 +21,7 @@ export default function Apresentacao() {
                 <h4 className={styles.menu__opcoes} >Check-in</h4>
                 <h4 className={styles.menu__opcoes} >Check-out</h4>
                 <h4 className={styles.menu__opcoes} >Hospedes</h4>
-                <Lupa className={styles.lupa} />
+                <Lupa className={styles.lupa}/>
               </div>
 
               <div className={styles.menu__opcoes__link}>
@@ -32,20 +33,22 @@ export default function Apresentacao() {
               </div>
 
             </ul>
-            
+
           </nav>
-          <Man className={styles.man} />
+          <Man className={styles.man}  />
         </nav>
         <div className={styles.header__Text__Card}>
           <div className={styles.header__text} >
             Experiência incrível em Curitiba
           </div>
           <div className={styles.card} >
-          <h2 className={styles.card__text}> As melhores acomodações da região</h2>
-            <Cards/>
+            <h2 className={styles.card__text}> As melhores acomodações da região</h2>
+            <Cards />
           </div>
         </div>
       
+
+
       </header>
       
     </main>
