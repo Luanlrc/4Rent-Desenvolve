@@ -46,13 +46,6 @@ export default function Apresentacao() {
             <Cards />
           </div>
         </div>
-<<<<<<<<< Temporary merge branch 1
-      
-=========
-
-
-
->>>>>>>>> Temporary merge branch 2
       </header>
       
     </main>
