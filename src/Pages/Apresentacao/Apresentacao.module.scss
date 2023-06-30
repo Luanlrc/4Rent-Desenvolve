@@ -1,39 +1,44 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
 
 
-$padding-horizontal: 250px;
 
 .menu {
-    padding: 20px $padding-horizontal;
     background-color: rgba(79, 198, 219, 0.70);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 5rem;
     width: 100%;
+
+    
+}
+.header__logo{
+    margin-left: 10%;
 }
 
 .menu__text {
     color: white;
     font-size: 2rem;
-    width: 400px;
-
 }
 
 .menu__informacoes {
     background-color: #FFFFFF;
-    width: 900px;
     border-radius: 16px;
     height: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 850px;
+   
 
 }
 
 .menu__opcoesgeral {
     display: flex;
     justify-content: space-between;
-    width: 850px;
+    width: 800px;
     height: 1.5rem;
 
 
@@ -80,7 +85,7 @@ nav a {
 
 }
 .man{
-    margin-left: 40px;
+    margin-right: 10%;
 }
 
 .header {
@@ -92,6 +97,7 @@ nav a {
     flex-direction: column;
     gap: 10rem;
     height: 800px;
+    width: 100%;
 
     &__text {
 
@@ -100,27 +106,31 @@ nav a {
         font-weight: bold;
         min-width: 400px;
         width: 30%;
-        padding: 20px $padding-horizontal;
+        padding: 20px ;
+        margin-left: 10%;
     }
     .header__Text__Card{
         display: flex;
-        justify-content: space-between;
-        width: 100rem;
+        justify-content: space-around;
+        width: 90%;
+        margin-right:20%;
+   
     }
 
 .card{
     background-color: #FFFFFF;
     border-radius: 16px;
     width:360px ;
-   
+    height: 500px;
+    
 
 
 }
 .card__text{
     font-size: 10px;
     font-weight: bold;
-    padding: 10px;
-    margin-left: 20px;
+    padding: 2%;
+    margin-left:10%;
 
 }
 
