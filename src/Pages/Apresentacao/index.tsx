@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from '../../assets/Group.svg'
 import { ReactComponent as Lupa } from '../../assets/Vector.svg';
 import { ReactComponent as Man } from '../../assets/silhueta.svg';
 import Cards from './Cards';
+import { Footer } from './Footer/footer';
 
 
 
@@ -46,12 +47,10 @@ export default function Apresentacao() {
             <h2 className={styles.card__text}> As melhores acomodações da região</h2>
             <Cards />
           </div>
-        </div>
-
-
+        </div>  
 
       </header>
-
+      
     </main>
 
 
