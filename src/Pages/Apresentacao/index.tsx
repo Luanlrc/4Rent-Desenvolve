@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from '../../assets/Group.svg'
 import { ReactComponent as Lupa } from '../../assets/Vector.svg';
 import { ReactComponent as Man } from '../../assets/silhueta.svg';
 import Cards from './Cards';
+import { Footer } from './Footer/footer';
 
 
 export default function Apresentacao() {
@@ -45,10 +46,8 @@ export default function Apresentacao() {
           </div>
         </div>
       
-
-
       </header>
-
+      
     </main>
 
 
