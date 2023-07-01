@@ -1,7 +1,7 @@
 
 import styles from "./Card.module.scss";
 import cards from "../cards.json";
-import {motion} from 'framer-motion';
+
 
 type Props = typeof cards[0];
 
