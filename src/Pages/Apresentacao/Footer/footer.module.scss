@@ -1,0 +1,58 @@
+.footer{
+    height: 120px;
+    background-image: url('./img/backgroundFooter.png');
+    width: 100vw;
+}
+
+.bkcolor{
+    background-color: rgba(79, 198, 219, 100);;
+    width: 100vw;
+    height: 120px;
+}
+
+
+.footer h3{
+    margin: 0;
+    margin-bottom: 8px;
+    padding-top:5px ;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    color: aliceblue;
+}
+
+
+.dev {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.nomesite {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.nomesite p{
+    margin: 0;
+    margin-right: 20px;
+}
+
+
+.nomenomes{
+    display: flex;
+    justify-content: space-between;
+    //margin-left: 20px;
+    //padding-left: 60px;
+    
+
+}
+
+
+.nomenomes a{
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}

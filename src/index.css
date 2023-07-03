@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
 
 
-feature/11.3
+
 main
 body {
   background-color: #f6f6f6;
@@ -12,4 +12,20 @@ body {
   box-sizing: border-box;
   font-family: 'Montserrat Alternates', sans-serif;
 
+}
+
+.slick-prev, .slick-next{
+  z-index: 999!important;
+}
+
+.slick-prev {
+  left: 25px!important;
+}
+
+.slick-next {
+  right: 25px!important;
+}
+
+.slick-prev:before, .slick-next:before{
+  font-size: 28px!important;
 }

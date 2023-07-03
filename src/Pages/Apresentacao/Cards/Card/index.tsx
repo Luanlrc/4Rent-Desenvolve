@@ -1,6 +1,7 @@
-import photo from "assets/card/image 2.png";
+
 import styles from "./Card.module.scss";
-import cards from "../cards.json"
+import cards from "../cards.json";
+
 
 type Props = typeof cards[0];
 
