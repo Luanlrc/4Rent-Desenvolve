@@ -40,10 +40,10 @@ export default function Apresentacao() {
         </nav>
 
         <div className={styles.header__Text__Card}>
-          <motion.div animate={{x:100,y:100}}className={styles.header__text} >
+          <motion.div animate={{x:30,y:0}}className={styles.header__text} >
             Experiência incrível no Paraná!
           </motion.div>
-          <motion.div animate={{x:-200,y:0}}className={styles.card} >
+          <motion.div animate={{x:-30,y:0}}className={styles.card} >
             <h2 className={styles.card__text}> As melhores acomodações da região</h2>
            <Cards />
 
