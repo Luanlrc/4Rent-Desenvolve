@@ -1,4 +1,4 @@
-import locacoes from './cards.json';
+import locacoes from 'data/destinos.json';
 import Card from './Card';
 import styles from './Cards.module.scss'
 

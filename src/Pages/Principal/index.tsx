@@ -1,4 +1,4 @@
-import styles from './Apresentacao.module.scss'
+import styles from './Principal.module.scss'
 import { ReactComponent as Logo } from '../../assets/Group.svg'
 import { ReactComponent as Lupa } from '../../assets/Vector.svg';
 import { ReactComponent as Man } from '../../assets/silhueta.svg';
@@ -6,7 +6,7 @@ import Cards from './Cards';
 import {motion} from 'framer-motion';
 
 
-export default function Apresentacao() {
+export default function Principal() {
   return (
     <main>
       <header className={styles.header}>

@@ -1,6 +1,6 @@
 
 import styles from "./Card.module.scss";
-import cards from "../cards.json";
+import cards from "data/destinos.json";
 
 
 type Props = typeof cards[0];
