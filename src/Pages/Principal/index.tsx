@@ -13,7 +13,9 @@ export default function Principal() {
           <button>Reserve Agora</button>
         </div>
         <div className={styles.main__cards}>
+          <h3>As melhores acomodações da região</h3>
           <Cards/>
+          <button>Ver mais</button>
         </div>
                 
       </section>
