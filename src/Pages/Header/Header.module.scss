@@ -1,0 +1,58 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+
+.header {
+    background-color: rgba(79, 198, 219, 0.70);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    width: 100%;
+    gap: 16px;
+}
+
+.menu__bg {
+    display: flex;
+    padding: 8px 8px 8px 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex:auto;
+    align-self: stretch;
+    max-width: 1000px;
+    min-width: 320px;
+    gap:16px;
+
+    border-radius: 16px;
+    background: #FFF;
+}
+
+input {
+    border: 0px;
+    font-size: 12px;
+}
+
+.line {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(79, 198, 219, 0.70);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    min-width: 170px;
+    max-width: 200px;
+}
+
+.lupa {
+    background-color: rgba(79, 198, 219, 0.70);
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 12px;
+}
